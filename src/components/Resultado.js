@@ -52,7 +52,7 @@ const Resultado = ({cotizacion}) => {
      );
 }
 
-Resultado.PropTypes = {
+Resultado.propTypes = {
     cotizacion: PropTypes.number.isRequired
 }
  

@@ -25,7 +25,7 @@ const Header = ({titulo}) => {
 }
  
 
-Header.PropTypes = {
+Header.propTypes = {
     titulo: PropTypes.string.isRequired
 }
 

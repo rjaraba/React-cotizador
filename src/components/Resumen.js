@@ -35,7 +35,7 @@ const Resumen = ({datos}) => {
      );
 }
  
-Resumen.PropTypes = {
+Resumen.propTypes = {
     datos: PropTypes.object.isRequired
 }
 

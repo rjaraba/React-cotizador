@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
+import PropTypes from 'prop-types';
 import { obtenerDiferenciaYear } from '../Helper';
 import { calcularMarca } from '../Helper';
 import { obtenerPlan } from '../Helper';
-import PropTypes from 'prop-types';
 
 const Campo = styled.div`
     display: flex;
@@ -183,7 +183,7 @@ const Formulario = ({guardarResumen, guardarCargando}) => {
 }
 
 
-Formulario.PropTypes = {
+Formulario.propTypes = {
     guardarResumen: PropTypes.func.isRequired,
     guardarCargando: PropTypes.func.isRequired
 }
